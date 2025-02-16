@@ -1,0 +1,73 @@
+.login-page {
+  height: 100%;
+  padding: 0px;
+  width: 80%;
+  display: block;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 10px 20px rgb(122, 121, 121);
+}
+
+.login-heading {
+  position: absolute;
+  height: 50px;
+  width: 80%;
+  background: linear-gradient(
+    to bottom,
+    rgb(68, 143, 87) 50%,
+    rgb(34, 207, 155) 100%
+  );
+}
+.brand-name {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: cursive;
+  text-align: center;
+  color: white;
+}
+
+.login-page input {
+  width: 120%;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+.login-page input:focus {
+  width: 120%;
+  outline: none;
+  border-bottom: 2px solid rgb(59, 182, 121);
+}
+.login-img-height {
+  height: 600px;
+  width: 100%;
+}
+.btn-info {
+  background-color: rgb(59, 182, 121);
+  width: 120%;
+  color: white;
+}
+
+.login-bottom-strip {
+  background: linear-gradient(
+    to bottom,
+    rgb(68, 143, 87) 50%,
+    rgb(34, 207, 155) 100%
+  );
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+}
+
+.field-icon {
+  float: right;
+  margin-top: -11%;
+  margin-right: -55px;
+}
+
+/* .field-icon-register {
+  float: right;
+  margin-top: -55px;
+  margin-right: -55px;
+} */

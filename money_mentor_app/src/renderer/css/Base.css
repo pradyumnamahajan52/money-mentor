@@ -1,0 +1,40 @@
+
+.c{
+  margin-top:200px;
+}
+body{
+  margin:0;
+  padding:0;
+}
+.navbar{
+  top:0;
+  left:0;
+  background:linear-gradient(to bottom, rgb(68, 143, 87) 50%,rgb(34, 207, 155) 100%);
+
+  height:70px;
+  width:100%;
+  display:flex;
+  align-items: center;
+  position: fixed;
+}
+.left-navbar{
+  flex:1;
+  padding-left:20px;
+  display:flex;
+  align-items: center;
+}
+.right-navbar{
+  padding-right: 20px;}
+
+.navbar h1{
+  color:white;
+  margin-left:20px;
+}
+
+.fa-tasks{
+  font-size: 35px;
+}
+
+.mt-50{
+  margin-top:120px;
+}

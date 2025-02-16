@@ -1,0 +1,107 @@
+.flex-1{
+  flex:1;
+}
+
+.left-page{
+  width:20%;
+  height:100%;
+  margin-top:0px;
+  position:fixed;
+  box-shadow:0px 5px 5px rgb(173, 173, 173);
+  background-color:rgb(250, 250, 250);
+}
+.right-page{
+  background-color: aqua;
+}
+
+.profile-box{
+  padding:10px;
+  text-align: center;
+  color:black;
+  border-bottom:2px solid rgb(175, 173, 173);
+  
+}
+
+.visit-profile-btn{
+  width:100%;
+  height:30px;
+  padding:0px;
+  color:white;
+  background-color:rgb(17, 122, 192);
+  /* background-color:rgb(0, 153, 102); */
+}
+.visit-profile-btn:hover{
+  color:white;
+  background-color:rgb(9, 218, 155);
+}
+.box{
+  color:black;
+  display:flex;
+  padding:10px;
+  justify-items:center;
+  border-bottom:2px solid rgb(175, 173, 173);
+}
+
+.block{
+  background-color: aqua;
+  height:50px;
+  width:50px;
+}
+
+/******************************/
+
+.dashboard{
+  padding:10px;
+  margin-left:20%;
+  margin-top:70px;
+  width:80%;
+  
+  
+}
+.heading{
+  background-color:rgb(245, 247, 246);
+  box-shadow:0px 5px 5px rgb(190, 255, 252);
+  height:50px;
+}
+.heading p{
+  color: rgb(17, 122, 192);
+  padding:8px;
+  font-weight:bold;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.dashboard-boxes{
+  display:flex;
+  margin-top:15px;
+}
+.dashboard-box{
+  background-color: rgb(253, 253, 253);
+  height:100px;
+  width:100%;
+  text-align:center;
+  margin:20px;
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  padding:20px;
+  box-shadow:0px 5px 5px rgb(194, 188, 188);
+}
+
+.dashboard-boxes-heading{
+  color:rgb(105, 105, 105);
+  font-weight: bold;
+}
+
+.dashboard-boxes-bullish-amount{
+  color:rgb(33, 187, 148);
+  font-weight:bold;
+  font-size: 18px;
+  margin-left:20px;
+}
+.dashboard-boxes-bearish-amount{
+  color:rgb(250, 77, 100);
+  font-weight:bold;
+  font-size: 18px;
+  margin-left:20px;
+}

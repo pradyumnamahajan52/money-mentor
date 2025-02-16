@@ -1,0 +1,35 @@
+
+
+.risk-manager-page{
+    margin-top:80px;
+    padding:20px;
+}
+.risk-manager-page .chart{
+    width:100%;
+    height:300px;
+    background-color:rgb(230, 230, 230);
+}
+
+.risk-manager-page .chart-explanation{
+  display:flex;
+}
+
+
+.risk-manager-page .risk-reasons{
+  color:rgb(187, 18, 46);;
+  padding:20px;
+  background-color: rgb(255, 184, 184);
+}
+.risk-manager-page .risk-reasons h4{
+  color:rgb(187, 18, 46);
+  border-bottom:2px solid rgb(187, 18, 46);
+}
+.risk-manager-page .risk-relief-suggestions{
+  color:rgb(10, 121, 43);
+  padding:20px;
+  background-color: rgb(184, 255, 188);
+}
+.risk-manager-page .risk-relief-suggestions h4{
+
+  border-bottom:2px solid rgb(10, 121, 43);
+}
